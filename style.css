@@ -8,3 +8,43 @@ body{font-family:sans-serif;}
   cursor:pointer;
   color:#3b2f2f;
 }
+#legend {
+  background: #f7f7f7;
+  border: 1px solid #ddd;
+  padding: 8px 12px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+#legend ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 6px 0 0 0;
+}
+
+#legend li {
+  margin: 4px 0;
+}
+
+.legend {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 3px;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+.legend.green {
+  background: #d8f5d0;
+}
+
+.legend.yellow {
+  background: #fff3c4;
+}
+
+.legend.red {
+  background: #f7d6d6;
+}
+
